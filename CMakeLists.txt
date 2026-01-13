@@ -7,4 +7,4 @@ if(MSVC)
   add_compile_options(/MP)
 endif()
 
-add_executable(mpi-raytracing main.cpp)
+add_executable(mpi-raytracing src/main.cpp)
